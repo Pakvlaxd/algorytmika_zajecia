@@ -1,1 +1,1 @@
-# algorytmika_zajecia
+# Rozpoznawanie_Obiektów
