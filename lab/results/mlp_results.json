@@ -1,0 +1,9 @@
+{
+  "architektura": "Flatten-256-128-2 (ReLU, dropout 0.3)",
+  "parametry": 3179138,
+  "epoki": 40,
+  "val_acc_ostatnia_epoka": 57.5,
+  "val_acc_w_epoce_min_val_loss": 58.33,
+  "epoka_min_val_loss": 1,
+  "val_obrazy": 120
+}
