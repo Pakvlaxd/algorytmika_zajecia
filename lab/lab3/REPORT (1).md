@@ -5,9 +5,11 @@
 **Autor / grupa:** Michał Pakuła / GL0.3
 **Data:** 28.10.2026
 
+Użycie narzędzi AI: do przygotowania szkieletu kodu i struktury sprawozdania wykorzystano asystenta AI (Claude, Anthropic)
+
 Kod: [`lab3_pipeline.ipynb`](lab3_pipeline.ipynb) | Dane i wyniki: `dataset/`, `figures/`, `results/`
 
-Użycie narzędzi AI: do przygotowania szkieletu kodu i struktury sprawozdania wykorzystano asystenta AI (Claude, Anthropic)
+
 ---
 
 ## 1. Cel ćwiczenia
