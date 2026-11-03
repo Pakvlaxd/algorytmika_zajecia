@@ -7,6 +7,7 @@
 
 Kod: [`lab3_pipeline.ipynb`](lab3_pipeline.ipynb) | Dane i wyniki: `dataset/`, `figures/`, `results/`
 
+Użycie narzędzi AI: do przygotowania szkieletu kodu i struktury sprawozdania wykorzystano asystenta AI (Claude, Anthropic)
 ---
 
 ## 1. Cel ćwiczenia
@@ -28,7 +29,6 @@ Przygotowanie mini-zbioru obrazów w układzie ImageFolder oraz kompletnego poto
 
 **Warunki użycia i RODO.** Obrazy pochodzą z ImageNet, którego warunki dostępu przewidują użycie niekomercyjne, badawcze i edukacyjne; wykorzystano je wyłącznie w celach dydaktycznych [SPRAWDŹ aktualne warunki ImageNet]. Dla samego pliku `hymenoptera_data.zip` nie znalazłem osobnej licencji, więc traktuję go na warunkach ImageNet. Na części zdjęć widoczne są oznaczenia źródła (kody na obrazie), co sugeruje, że prawa autorskie należą do ich autorów, dlatego zbiór służy tylko do ćwiczenia. Zbiór przedstawia zdjęcia owadów, a na przejrzanych przykładach nie widać osób ani innych danych osobowych, więc ryzyko związane z RODO (identyfikacja osób) nie występuje i nie stosowano anonimizacji.
 
-**Zakres wideo.** Zbiór nie pochodzi z wideo, więc punkty dotyczące FPS, próbkowania klatek i konwersji BGR → RGB (OpenCV) nie mają zastosowania. Obrazy wczytuje PIL (ImageFolder), który zwraca je w kolejności RGB.
 
 ### 2.2 Potok transformacji
 
@@ -102,5 +102,3 @@ Architektura: `Flatten` (12 288) → `Linear` 256 → `ReLU` → `Dropout(0,3)` 
 2. Potok (ewaluacyjny i treningowy) działa poprawnie: paczka (16, 3, 64, 64), zakres [-1, 1], augmentacja zachowuje etykietę. Zauważone efekty uboczne to czarne narożniki po obrocie i ucięcie brzegów obiektu przez `CenterCrop`.
 3. MLP na obrazach 64×64 osiągnął 57,5% accuracy walidacyjnej, co przy 120 obrazach walidacyjnych nie różni się istotnie od zgadywania (50%); model przeucza się od pierwszej epoki. Liczba obrazów treningowych (10–100 na klasę) nie dała wiarygodnej poprawy accuracy, obniżała natomiast minimalną stratę walidacyjną.
 4. Kierunki poprawy: sieci splotowe (CNN) lub transfer learning (np. ResNet-18 wstępnie wytrenowany), wyższa rozdzielczość, większy i bardziej zróżnicowany zbiór, osobny zbiór testowy z niezależnego źródła, uśrednianie po kilku seedach.
-
-*[OPCJONALNIE, jeśli prowadzący tego wymagają: Użycie narzędzi AI: do przygotowania szkieletu kodu i struktury sprawozdania wykorzystano asystenta AI (Claude, Anthropic); eksperymenty, analizę i wnioski wykonano samodzielnie.]*
