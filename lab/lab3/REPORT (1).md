@@ -2,8 +2,8 @@
 
 **Przedmiot:** Uczenie głębokie do rozpoznawania obiektów
 **Zajęcia nr 3 / temat:** Dane obrazowe i wideo: potok i własny zbiór
-**Autor / grupa:** Michał [UZUPEŁNIJ: nazwisko] / [UZUPEŁNIJ: grupa]
-**Data:** [UZUPEŁNIJ]
+**Autor / grupa:** Michał Pakuła / GL0.3
+**Data:** 28.10.2026
 
 Kod: [`lab3_pipeline.ipynb`](lab3_pipeline.ipynb) | Dane i wyniki: `dataset/`, `figures/`, `results/`
 
