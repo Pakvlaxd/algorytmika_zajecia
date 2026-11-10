@@ -1,0 +1,7 @@
+eksperyment,model,parametry,wybrana epoka,val acc [%],val loss,czas uczenia [s]
+filtry,filtry 16-32,543962,11,76.8,0.681,30.6
+filtry,"CNN (baza: filtry 32-64, 2 bloki)",1117354,11,79.72,0.596,69.0
+filtry,filtry 64-128,2360906,11,80.66,0.575,157.8
+bloki,1 blok (32),2110250,5,69.14,0.879,48.7
+bloki,"CNN (baza: filtry 32-64, 2 bloki)",1117354,11,79.72,0.596,69.0
+bloki,3 bloki (32-64-128),815018,10,81.94,0.567,83.7
