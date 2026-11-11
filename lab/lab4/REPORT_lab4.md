@@ -2,8 +2,10 @@
 
 **Przedmiot:** Uczenie głębokie do rozpoznawania obiektów
 **Zajęcia nr 4 / temat:** CNN — splotowe sieci dla obrazów
-**Autor / grupa:** Michał [UZUPEŁNIJ: nazwisko] / [UZUPEŁNIJ: grupa]
-**Data:** [UZUPEŁNIJ]
+**Autor / grupa:** Michał Pakuła / GL0.3
+**Data:** 04.11.2026
+
+Użycie narzędzi AI: do przygotowania szkieletu kodu i struktury sprawozdania wykorzystano asystenta AI (Claude, Anthropic)
 
 Kod: [`lab4_cnn_vs_mlp.ipynb`](lab4_cnn_vs_mlp.ipynb) | Wyniki: `figures/`, `results/`
 
@@ -107,4 +109,3 @@ Obraz walidacyjny: koń (klasa `horse`), sieć rozpoznała go poprawnie. Pokazan
 4. Dodatkowo: 32–64 filtrów to dobry kompromis (16–32 jest o 2,4 p.p. gorsze, 64–128 nie poprawia accuracy kosztem 2,2× dłuższego treningu), a trzeci blok splotowy poprawił wynik (80,52% na walidacji) przy najmniejszej liczbie parametrów, natomiast model z jednym blokiem jest wyraźnie gorszy (70,40%).
 5. Kierunki poprawy: augmentacja i dłuższy trening, strojenie hiperparametrów, kilka seedów, porównanie MLP z tą samą regularyzacją (BatchNorm, dropout) oraz głębsze sieci splotowe.
 
-*[OPCJONALNIE, jeśli prowadzący tego wymagają: Użycie narzędzi AI: do przygotowania szkieletu kodu i struktury sprawozdania wykorzystano asystenta AI (Claude, Anthropic); eksperymenty, analizę i wnioski wykonano samodzielnie.]*
