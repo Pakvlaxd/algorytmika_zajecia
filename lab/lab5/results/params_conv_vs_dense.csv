@@ -1,0 +1,4 @@
+warstwa,wejście,wyjście,parametry Conv2d,parametry Linear,stosunek Linear / Conv2d
+"Conv2d(3, 8, 3, p=1), 32x32",3x32x32,8x32x32,224,"25,174,016","112,384"
+"Conv2d(64, 64, 3, p=1), 56x56 (layer1)",64x56x56,64x56x56,"36,928","40,282,296,320","1,090,833"
+"Conv2d(3, 64, 7, s=2, p=3), 224x224 (conv1)",3x224x224,64x112x112,"9,408","120,847,089,664","12,845,141"

@@ -1,0 +1,8 @@
+jądro,rozmiar,suma wag
+Sobel X,3x3,0.0
+Sobel Y,3x3,0.0
+Laplacian (8 sąsiadów),3x3,0.0
+Sharpen,3x3,1.0
+Box 3x3,3x3,1.0
+Box 5x5,5x5,1.0
+Gaussian 5x5,5x5,1.0

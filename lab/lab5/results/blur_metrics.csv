@@ -1,0 +1,5 @@
+wariant,średnia magnituda gradientu,maks. magnituda gradientu,odchylenie std jasności
+oryginał,0.2209,1.3522,0.1431
+Box 3x3,0.2056,1.1381,0.1401
+Box 5x5,0.1859,0.8707,0.1346
+Gaussian 5x5,0.1996,1.0773,0.1385

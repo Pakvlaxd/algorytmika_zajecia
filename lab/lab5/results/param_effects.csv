@@ -1,0 +1,7 @@
+wariant,stride,padding,dilation,wejście,wyjście,zgodne ze wzorem
+"baza (s=1, p=1, d=1)",1,1,1,512x512,512x512,tak
+stride=2,2,1,1,512x512,256x256,tak
+padding=0,1,0,1,512x512,510x510,tak
+padding=3,1,3,1,512x512,516x516,tak
+dilation=2 (p=1),1,1,2,512x512,510x510,tak
+dilation=2 (p=2),1,2,2,512x512,512x512,tak
