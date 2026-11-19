@@ -2,9 +2,9 @@
 
 **Przedmiot:** Uczenie głębokie do rozpoznawania obiektów
 **Zajęcia nr 5 / temat:** Warstwy splotowe: operacja, parametry, interpretacja
-**Autor / grupa:** Michał [UZUPEŁNIJ: nazwisko] / [UZUPEŁNIJ: grupa]
-**Data:** [UZUPEŁNIJ]
-
+**Autor / grupa:** Michał Pakuła /GL0.3
+**Data:** 13.11.2026
+Użycie narzędzi AI: do przygotowania szkieletu kodu i struktury sprawozdania wykorzystano asystenta AI (Claude, Anthropic)
 Kod: [`lab5_warstwy_splotowe.ipynb`](lab5_warstwy_splotowe.ipynb) | Wyniki: `figures/`, `results/`
 
 ---
@@ -177,4 +177,4 @@ Filtry `conv1` są obrazkami RGB, które można odczytać jak detektory krawędz
 5. Box 5×5 rozmywa mocniej niż Box 3×3 (spadek maksymalnej magnitudy gradientu o 35,6% wobec 15,8%), a Gaussian 5×5 rozmywa słabiej niż Box 5×5 (−20,3%) dzięki wagom skupionym przy środku okna.
 6. Warstwa splotowa ma wielokrotnie mniej parametrów niż gęsta o tym samym wejściu i wyjściu (np. `conv1` ResNet-18: 9 408 wobec ok. 1,2·10¹¹).
 
-*[OPCJONALNIE, jeśli prowadzący tego wymagają: Użycie narzędzi AI: do przygotowania szkieletu kodu i struktury sprawozdania wykorzystano asystenta AI (Claude, Anthropic); eksperymenty, analizę i wnioski wykonano samodzielnie.]*
+
