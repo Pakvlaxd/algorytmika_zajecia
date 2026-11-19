@@ -17,7 +17,7 @@ Zbadanie działania warstwy splotowej na zdjęciu w skali szarości: ręczne ją
 
 ### 2.1 Zdjęcie
 
-Wszystkie punkty wykonano na **jednym zdjęciu** w skali szarości przedstawiającym papugę (nimfę), innym niż zdjęcie demonstracyjne z ćwiczenia. **Źródło i warunki użycia:** [UZUPEŁNIJ: skąd pochodzi zdjęcie (autor, link, licencja) albo że jest własne]. Zdjęcie ma rozmiar 512×512 px (zmniejszenie do dłuższego boku 512 px nie było potrzebne), wartości jasności mieszczą się w przedziale 0,035–0,831. Na zdjęciu nie ma osób.
+Wszystkie punkty wykonano na **jednym zdjęciu** w skali szarości przedstawiającym papugę (nimfę), innym niż zdjęcie demonstracyjne z ćwiczenia. **Źródło:** https://www.ics.p.lodz.pl/~tomczyk/available/po/images/bird.bmp) Zdjęcie ma rozmiar 512×512 px (zmniejszenie do dłuższego boku 512 px nie było potrzebne), wartości jasności mieszczą się w przedziale 0,035–0,831. Na zdjęciu nie ma osób.
 
 ![Zdjęcie przed filtracją (skala szarości)](figures/photo_gray.png)
 
