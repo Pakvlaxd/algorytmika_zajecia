@@ -1,0 +1,10 @@
+eksperyment,wariant,parametry,mapa przed głowicą,val acc [%] (średnia ± std),wybrane epoki,czas uczenia [s]
+okno poolingu,max pooling 2x2,19658,64x7x7,85.51 ± 0.61,"10,9,9",14.6
+okno poolingu,"max 3x3, krok 3",19658,64x3x3,88.47 ± 0.18,"10,9,9",11.3
+okno poolingu,"max 3x3, krok 2 (nakładające się)",19658,64x6x6,86.46 ± 0.42,"10,9,9",14.6
+głowica,max pooling 2x2,19658,64x7x7,85.51 ± 0.61,"10,9,9",14.6
+głowica,"max 2x2, Flatten + Linear (bez GAP)",50378,64x7x7,91.83 ± 0.24,"9,7,6",15.0
+liczba bloków,1 blok (32),714,32x14x14,62.63 ± 0.06,"10,10,10",8.1
+liczba bloków,max pooling 2x2,19658,64x7x7,85.51 ± 0.61,"10,9,9",14.6
+liczba bloków,3 bloki (32-64-128),94410,128x3x3,91.02 ± 0.51,"6,9,8",19.5
+liczba bloków,4 bloki (32-64-128-256),391370,256x1x1,91.99 ± 0.28,"5,3,4",23.1

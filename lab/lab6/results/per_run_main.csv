@@ -1,0 +1,10 @@
+wariant,seed,wybrana epoka,val acc [%],val loss,test acc [%],czas uczenia [s]
+max pooling 2x2,0,10,86.05,0.4134,85.41,14.8
+max pooling 2x2,1,9,85.64,0.4188,85.31,14.6
+max pooling 2x2,2,9,84.85,0.443,84.29,14.5
+average pooling 2x2,0,10,83.69,0.4674,83.59,14.6
+average pooling 2x2,1,9,81.94,0.5217,81.81,14.8
+average pooling 2x2,2,9,82.71,0.4981,81.89,15.0
+splot stride=2,0,7,90.68,0.2592,89.44,22.5
+splot stride=2,1,10,91.06,0.2518,90.1,22.3
+splot stride=2,2,8,90.67,0.2581,89.88,22.4
