@@ -2,8 +2,8 @@
 
 **Przedmiot:** Uczenie głębokie do rozpoznawania obiektów
 **Zajęcia nr 6 / temat:** Warstwa łącząca (pooling) i pełna CNN
-**Autor / grupa:** Michał [UZUPEŁNIJ: nazwisko] / [UZUPEŁNIJ: grupa]
-**Data:** [UZUPEŁNIJ]
+**Autor / grupa:** Michał Pakuła / GL0.3
+**Data:** 17.11.2026
 
 Kod: [`lab6_pooling_cnn.ipynb`](lab6_pooling_cnn.ipynb) | Wyniki: `figures/`, `results/`
 
