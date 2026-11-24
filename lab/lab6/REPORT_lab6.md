@@ -4,6 +4,7 @@
 **Zajęcia nr 6 / temat:** Warstwa łącząca (pooling) i pełna CNN
 **Autor / grupa:** Michał Pakuła / GL0.3
 **Data:** 17.11.2026
+**Użycie narzędzi AI: do przygotowania szkieletu kodu i struktury sprawozdania wykorzystano asystenta AI (Claude, Anthropic)**
 
 Kod: [`lab6_pooling_cnn.ipynb`](lab6_pooling_cnn.ipynb) | Wyniki: `figures/`, `results/`
 
@@ -161,4 +162,4 @@ Pole recepcyjne komórki mapy przed głowicą (obliczone ręcznie z parametrów 
 4. Eksperymenty dodatkowe: większe okno poolingu (3×3, krok 3) daje +3,0 p.p. bez parametrów, spłaszczenie zamiast GAP +6,3 p.p. (za +30 720 parametrów), a kolejne bloki dają malejące przyrosty (62,6% → 85,5% → 91,0% → 92,0%).
 5. Kierunki poprawy: dłuższy trening, więcej seedów, porównanie wariantów przy wyrównanej głębokości i liczbie parametrów, trudniejszy zbiór (CIFAR-10).
 
-*[OPCJONALNIE, jeśli prowadzący tego wymagają: Użycie narzędzi AI: do przygotowania szkieletu kodu i struktury sprawozdania wykorzystano asystenta AI (Claude, Anthropic); eksperymenty, analizę i wnioski wykonano samodzielnie.]*
+
